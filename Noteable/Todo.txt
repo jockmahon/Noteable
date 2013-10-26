@@ -1,0 +1,6 @@
+create db to hold note library
+get activity and fragments working
+display staff on screen
+create assets for buttons
+on button click show note
+get note graphics
