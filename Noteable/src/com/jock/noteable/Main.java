@@ -9,11 +9,14 @@ import android.view.Menu;
 public class Main extends Activity
 {
 
+	public static final String APP_TAG = "NOTEABLE";
+	
 	@Override
 	protected void onCreate( Bundle savedInstanceState )
 	{
+
 		super.onCreate( savedInstanceState );
-		setContentView( R.layout.layout_main );
+		setContentView( R.layout.main );
 
 		FragmentManager fragMan = getFragmentManager();
 		FragmentTransaction tran = fragMan.beginTransaction();
