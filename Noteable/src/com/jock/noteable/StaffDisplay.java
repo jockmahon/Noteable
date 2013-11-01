@@ -15,6 +15,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
+
 public class StaffDisplay extends Fragment implements OnClickListener, OnTouchListener
 {
 	private Button a_btn;
@@ -26,6 +27,7 @@ public class StaffDisplay extends Fragment implements OnClickListener, OnTouchLi
 	private Button g_btn;
 	private RelativeLayout staffLayout;
 
+		
 	private enum NOTES
 	{
 		C_NATURAL, D_NATURAL, E_NATURAL, F_NATURAL, G_NATURAL, A_NATURAL, B_NATURAL
@@ -190,6 +192,7 @@ public class StaffDisplay extends Fragment implements OnClickListener, OnTouchLi
 	}
 
 
+	@Override
 	public void onClick( View v )
 	{
 		Log.d( Main.APP_TAG, "in the onclick" );
